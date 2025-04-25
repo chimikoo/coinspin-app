@@ -15,7 +15,7 @@ const CoinSpinner = () => {
   const [spinning, setSpinning] = useState(false);
   const [result, setResult] = useState<'Heads' | 'Tails' | null>(null);
 
-  const fps = 30;
+  const fps = 120;
   const frameHeight = 256;
   const totalFrames = frameData.length;
 
